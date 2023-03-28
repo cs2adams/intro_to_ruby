@@ -1,5 +1,6 @@
-puts "Hello. Please enter your name to begin."
-name = gets.chomp
-puts "Hello #{name}!"
+puts "Hello. Please enter your first name to begin."
+first_name = gets.chomp
+puts "Excellent! Now please enter your last name."
+last_name = gets.chomp
 
-10.times {puts name}
+puts "Hello #{first_name} #{last_name}!"
