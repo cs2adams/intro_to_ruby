@@ -1,0 +1,5 @@
+# welcome.txt
+
+a = "e"
+b = "A"
+c = nil

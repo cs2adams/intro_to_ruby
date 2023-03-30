@@ -1,0 +1,9 @@
+Cannot access arrays by value
+
+try this instead:
+
+names.each_with_index do |val, ind|
+  if val == 'margaret'
+    names[ind] = 'jody'
+  end
+end
